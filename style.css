@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
 
 body {
@@ -14,7 +14,7 @@ body {
 header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ECF87F;
-    background-color: #d3f5b1;
+    background-color: #e6ffce;
     font-weight: bold;
     letter-spacing: 2px;
     padding: 16px 16px;
@@ -73,7 +73,7 @@ a.nav.currpage:hover {
 }
 
 div.infocard {
-    background-color: #d3f5b1;
+    background-color: #e6ffce;
     padding: 16px 16px;
     border-radius: 16px;
     margin: 32px 0px;
@@ -107,6 +107,8 @@ a.inlinenav {
     text-decoration: none;
     color: #3D550C;
     background-color: #ECF87F;
+    padding: 2px 4px;
+    border-radius: 8px;
 }
 
 .infocard div.contactinfo {
@@ -114,7 +116,7 @@ a.inlinenav {
 }
 
 .infocard img.profilepic {
-    height: 244px;
+    height: 224px;
     float: right;
     border: 4px solid #59981A;
     border-radius: 16px;
