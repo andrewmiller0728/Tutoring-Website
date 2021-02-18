@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* border: 2px dashed red; */
+    border: 2px dashed red;
 }
 
 body {
@@ -103,10 +103,22 @@ div.infocard {
     margin: 16px 16px;
 }
 
-a.schoollink {
+a.inlinenav {
     text-decoration: none;
-    font-style: italic;
     color: #3D550C;
+    background-color: #ECF87F;
+}
+
+.infocard div.contactinfo {
+    display: inline-block;
+}
+
+.infocard img.profilepic {
+    height: 244px;
+    float: right;
+    border: 4px solid #59981A;
+    border-radius: 16px;
+    margin: auto auto;
 }
 
 footer {
