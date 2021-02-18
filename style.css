@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    /* border: 2px dashed red; */
+}
+
+body {
+    background-color: #81B622;
+    min-width: 640px;
+    max-width: 1024px;
+    padding: 32px 32px;
+    margin: 0px auto;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ECF87F;
+    background-color: #d3f5b1;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 16px 16px;
+    border-radius: 16px;
+    margin: 0px 0px;
+}
+
+header h1 {
+    font-size: 32px;
+    background-color: #3D550C;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 16px;
+    margin: 0px 0px;
+}
+
+header ul {
+    background-color: #59981A;
+    text-align: center;
+    width: fit-content;
+    padding: 16px 16px;
+    border-radius: 16px;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header ul li {
+    font-size: 20px;
+    line-height: 32px;
+    display: inline-block;
+    padding: 0px 0px;
+    border-radius: 16px;
+    margin: 0px 0px;
+}
+
+a.nav {
+    color: #ECF87F;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin: 0px 0px;
+}
+
+a.nav:hover {
+    color: #3D550C;
+}
+
+a.nav.currpage {
+    background-color: #3D550C;
+}
+
+a.nav.currpage:hover {
+    color: #ECF87F;
+}
+
+.infocard {
+    background-color: #d3f5b1;
+    padding: 16px 16px;
+    border-radius: 16px;
+    margin: 32px 0px;
+}
+
+.infocard h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    color: #ECF87F;
+    background-color: #59981A;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 32px;
+    border-radius: 16px;
+    margin: 0px 0px;
+}
+
+.infocard p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3D550C;
+    line-height: 1.618;
+    margin: 16px 16px;
+}
+
+a.schoollink {
+    text-decoration: none;
+    font-style: italic;
+    color: #3D550C;
+}
