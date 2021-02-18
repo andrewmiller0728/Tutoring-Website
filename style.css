@@ -61,7 +61,7 @@ a.nav {
 }
 
 a.nav:hover {
-    color: #3D550C;
+    background-color: #3D550C
 }
 
 a.nav.currpage {
@@ -69,7 +69,21 @@ a.nav.currpage {
 }
 
 a.nav.currpage:hover {
+    color: #3D550C;
+    background-color: #ECF87F;
+}
+
+a.inlinenav {
+    text-decoration: none;
+    color: #3D550C;
+    background-color: #ECF87F;
+    padding: 2px 4px;
+    border-radius: 8px;
+}
+
+a.inlinenav:hover {
     color: #ECF87F;
+    background-color: #3D550C;
 }
 
 div.infocard {
@@ -101,14 +115,6 @@ div.infocard {
     color: #3D550C;
     line-height: 1.618;
     margin: 16px 16px;
-}
-
-a.inlinenav {
-    text-decoration: none;
-    color: #3D550C;
-    background-color: #ECF87F;
-    padding: 2px 4px;
-    border-radius: 8px;
 }
 
 .infocard div.contactinfo {
