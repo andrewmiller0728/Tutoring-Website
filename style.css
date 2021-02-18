@@ -114,5 +114,8 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: #d3f5b1;
-    margin: 256px auto;
+    margin-top: 256px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
