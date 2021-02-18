@@ -72,7 +72,7 @@ a.nav.currpage:hover {
     color: #ECF87F;
 }
 
-.infocard {
+div.infocard {
     background-color: #d3f5b1;
     padding: 16px 16px;
     border-radius: 16px;
@@ -114,4 +114,5 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: #d3f5b1;
+    margin: 256px auto;
 }
