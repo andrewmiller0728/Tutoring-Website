@@ -3,12 +3,16 @@
     /* border: 2px dashed red; */
 }
 
+html {
+    background-color: #e6ffce;
+} 
+
 body {
     background-color: #81B622;
-    min-width: 640px;
     max-width: 1024px;
-    padding: 32px 32px;
-    margin: 0px auto;
+    padding: 64px 64px;
+    border-radius: 32px;
+    margin: 16px auto;
 }
 
 header {
@@ -23,7 +27,7 @@ header {
 }
 
 header h1 {
-    font-size: 32px;
+    font-size: 48px;
     background-color: #3D550C;
     text-align: center;
     padding: 16px 32px;
@@ -34,13 +38,10 @@ header h1 {
 header ul {
     background-color: #59981A;
     text-align: center;
-    width: fit-content;
+    /* width: fit-content; */
     padding: 16px 16px;
     border-radius: 16px;
-    margin-top: 16px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 16px auto 0px auto;
 }
 
 header ul li {
@@ -90,7 +91,7 @@ div.infocard {
     background-color: #e6ffce;
     padding: 16px 16px;
     border-radius: 16px;
-    margin: 32px 0px;
+    margin: 32px auto;
 }
 
 .infocard h2 {
@@ -134,8 +135,5 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     color: #d3f5b1;
-    margin-top: 256px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 0px auto 0px auto;
 }
