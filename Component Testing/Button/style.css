@@ -43,7 +43,7 @@ button:hover {
 .button2 button {
     color: #f9f9fa;
     background-color: #df5f6a;
-    border-color: #d2202f;
+    border-color: #bd212e;
 }
 
 .button2 button:hover {
@@ -54,12 +54,12 @@ button:hover {
 
 .button3 button {
     color: #f9f9fa;
-    background-color: #df5f6a;
-    border-color: #d2202f;
+    background-color: #00b3a4;
+    border-color: #007a70;
 }
 
 .button3 button:hover {
-    color: #df5f6a;
-    background-color: #fbe9eb;
-    border-color: #f4c8cc;
+    color: #00b3a4;
+    background-color: #cef5f2;
+    border-color: #7ae4dc;
 }
