@@ -69,6 +69,10 @@ main {
     border: 4px solid #391669;
 }
 
+main div h2 {
+    font-size: 2rem;
+}
+
 footer {
     font-size: 0.5rem;
     color: #bcc5cb;
