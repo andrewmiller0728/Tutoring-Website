@@ -1,155 +1,148 @@
+/* 
+    COLORS:
+        PRIMARY_0   = #81B622 (Green)
+        PRIMARY_1   = #3D550C (Dark Green)
+        SECONDARY_0 = #E6FFCE (Pale Green)
+        ACCENT_0    = #F0FA9A (Lime Yellow)
+        TEXT_0      = #3C4133 (Grey/Brown)
+*/
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
 * {
     box-sizing: border-box;
-    /* border: 2px dashed red; */
+    border: 1px dashed red;
 }
 
 html {
+    color: #3C4133;
     background-color: #e6ffce;
-} 
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 8px;
+}
 
 body {
+    max-width: 1080px;
+    padding: 1rem 2rem;
+    margin: 0rem auto;
+}
+
+body, header, header h1, nav, nav button, section.infocard, section.infocard h2, section.personcard, section.personcard h2, section.personcard img, .inlinenav {
+    border-radius: 1rem;
+}
+
+body, nav, nav ul, nav ul li, nav button, section.infocard h2, section.personcard h2 {
+    text-align: center;
     background-color: #81B622;
-    max-width: 1024px;
-    padding: 64px 64px;
-    border: 4px solid #76a51f;
-    border-radius: 32px;
-    margin: 16px auto;
-    box-shadow: 0 6px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-header {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #f0fa9a;
-    background-color: #e6ffce;
-    font-weight: bold;
-    letter-spacing: 2px;
-    padding: 16px 16px;
-    border: 4px solid #c7ddb3;
-    border-radius: 16px;
-    margin: 0px 0px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+body, header h1, nav, nav button, nav ul, section.infocard h2, section.personcard h2 {
+    margin: 0em auto;
 }
 
-header h1 {
-    font-size: 48px;
-    background-color: #3D550C;
-    text-align: center;
-    padding: 16px 32px;
-    border-radius: 16px;
-    margin: 0px 0px;
-}
-
-header ul {
-    background-color: #59981A;
-    text-align: center;
-    /* width: fit-content; */
-    padding: 16px 16px;
-    border-radius: 16px;
-    margin: 16px auto 0px auto;
-}
-
-header ul li {
-    font-size: 20px;
-    line-height: 32px;
-    display: inline-block;
-    padding: 0px 0px;
-    border-radius: 16px;
-    margin: 0px 0px;
-}
-
-a.nav {
-    color: #f0fa9a;
-    text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 16px;
-    margin: 0px 0px;
-    transition-duration: 500ms;
-}
-
-a:hover {
-    padding: 16px 32px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-a.nav:hover {
-    background-color: #3D550C
-}
-
-a.nav.currpage {
-    background-color: #3D550C;
-}
-
-a.nav.currpage:hover {
-    color: #3D550C;
-    background-color: #f0fa9a;
-}
-
-a.inlinenav {
-    text-decoration: none;
-    color: #3D550C;
-    background-color: #f0fa9a;
-    padding: 2px 4px;
-    border-radius: 8px;
-}
-
-a.inlinenav:hover {
-    color: #f0fa9a;
-    background-color: #3D550C;
-}
-
-div.infocard {
-    background-color: #e6ffce;
-    padding: 16px 16px;
-    border: 4px solid #c7ddb3;
-    border-radius: 16px;
-    margin: 32px auto;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.infocard h2 {
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    color: #f0fa9a;
-    background-color: #59981A;
-    text-align: center;
-    width: fit-content;
-    height: fit-content;
-    padding: 16px 32px;
-    border-radius: 16px;
-    margin: 0px 0px;
-}
-
-.infocard p {
-    text-align: left;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #3D550C;
-    line-height: 1.618;
-    margin: 16px 16px;
-}
-
-.infocard div.contactinfo {
-    display: inline-block;
-}
-
-.infocard img.profilepic {
-    height: 224px;
-    float: left;
-    border: 4px solid #59981A;
-    border-radius: 16px;
-    margin: auto 16px auto auto;
-}
-
-.italics {
+.italics, footer p {
     font-style: italic;
 }
 
+header, section.infocard, section.personcard {
+    background-color: #E6FFCE;
+    padding: 2em 2em;
+    margin: 1em auto;
+}
+
+header h1, nav, nav button {
+    color: #F0FA9A;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding: 0.5em 1em;
+}
+
+header h1 {
+    background-color: #3D550C;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+nav ul, section.infocard div.header {
+    width: fit-content;
+    padding: 0rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav button {
+    font-size: 1.25rem;
+    min-width: 4em;
+    text-transform: capitalize;
+    padding: 0.5em 1em;
+    border: none;
+}
+
+nav button:hover {
+    background-color: #3D550C;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section.infocard {
+    text-align: left;
+}
+
+section.infocard h2, section.personcard h2 {
+    color: #F0FA9A;
+    padding: 0.5em 1em;
+}
+
+section.infocard h2 {
+    font-size: 1.5rem;
+}
+
+section.infocard p {
+    font-size: 1.25rem;
+    font-family: 'Roboto Slab', serif;
+    margin: 1em auto 0em auto;
+}
+
+section.infocard p::first-letter {
+    padding-left: 1.5em;
+}
+
+section.personcard h2 {
+    font-size: 2rem;
+}
+
+section.personcard img {
+    border: 4px solid #81B622;
+    margin-top: 1em;
+}
+
+.inlinenav {
+    text-decoration: none;
+    color: #3C4133;
+    background-color: #F0FA9A;
+    padding: 0em 0.25em;
+}
+
+.inlinenav:hover {
+    color: #F0FA9A;
+    background-color: #81B622;
+}
+
+div.googleform iframe {
+    width: 100%;
+    height: 1280px;
+    border: none
+}
+
 footer {
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    color: #d3f5b1;
-    margin: 0px auto 0px auto;
+    opacity: 50%;
+}
+
+footer p {
+    color: #E6FFCE;
+    margin: 0.5em auto;
 }
