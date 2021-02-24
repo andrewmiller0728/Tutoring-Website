@@ -30,7 +30,7 @@ body {
     margin: 0rem auto;
 }
 
-body, header, header h1, nav, nav button, section.infocard, section.infocard h2, section.personcard, section.personcard h2, section.personcard img, .inlinenav {
+body, header, header h1, nav, nav button, section.infocard, section.infocard h2, section.personcard, section.personcard h2, section.personcard img {
     border-radius: 1rem;
 }
 
