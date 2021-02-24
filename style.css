@@ -12,7 +12,7 @@
 
 * {
     box-sizing: border-box;
-    /* border: 1px dashed red; */
+    border: 1px dashed red;
 }
 
 html {
@@ -110,7 +110,6 @@ section.infocard {
 
 section.infocard div.header, section.infocard h2 {
     min-width: fit-content;
-    width: 25%;
 }
 
 section.infocard h2, section.personcard h2 {
@@ -120,6 +119,7 @@ section.infocard h2, section.personcard h2 {
 
 section.infocard h2 {
     font-size: 1.5rem;
+    width: 25%;
 }
 
 section.infocard p {
