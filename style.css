@@ -17,7 +17,7 @@
 
 html {
     color: #3C4133;
-    background-color: #e6ffce;
+    background-color: #3D550C;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -34,13 +34,17 @@ body, header, header h1, nav, nav button, section.infocard, section.infocard h2,
     border-radius: 1rem;
 }
 
-body, nav, nav ul, nav ul li, nav button, section.infocard h2, section.personcard h2 {
+body, nav, nav button, section.infocard h2, section.personcard h2 {
     text-align: center;
     background-color: #81B622;
 }
 
-body, header h1, nav, nav button, nav ul, section.infocard h2, section.personcard h2 {
+body, header h1, nav, nav ul, section.infocard h2, section.personcard h2 {
     margin: 0em auto;
+}
+
+body, header, section.infocard, section.personcard, nav button:hover {
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25), 8px 0px 8px rgba(0, 0, 0, 0.125);
 }
 
 .italics, footer p {
@@ -56,8 +60,8 @@ header, section.infocard, section.personcard {
 header h1, nav, nav button {
     color: #F0FA9A;
     font-weight: 700;
-    letter-spacing: 0.05em;
-    padding: 0.5em 1em;
+    letter-spacing: 0.075em;
+    padding: 0.75em 1em;
 }
 
 header h1 {
@@ -81,11 +85,11 @@ nav button {
     text-transform: capitalize;
     padding: 0.5em 1em;
     border: none;
+    margin: 0em 0.25em;
 }
 
 nav button:hover {
     background-color: #3D550C;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 nav button.currpage {
