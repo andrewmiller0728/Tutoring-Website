@@ -18,7 +18,7 @@
 html {
     color: #3C4133;
     background-color: #3D550C;
-    font-size: 16px;
+    font-size: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     padding: 8px;
@@ -37,6 +37,7 @@ body, header, header h1, nav, nav button, section.infocard, section.infocard h2,
 body, nav, nav button, section.infocard h2, section.personcard h2 {
     text-align: center;
     background-color: #81B622;
+    border: 4px solid #75A71F;
 }
 
 body, header h1, nav, nav ul, section.infocard h2, section.personcard h2 {
@@ -54,6 +55,7 @@ body, header, section.infocard, section.personcard, nav button:hover {
 header, section.infocard, section.personcard {
     background-color: #E6FFCE;
     padding: 2em 2em;
+    border: 4px solid #DAF2C2;
     margin: 1em auto;
 }
 
@@ -67,6 +69,7 @@ header h1, nav, nav button {
 header h1 {
     background-color: #3D550C;
     font-size: 2.5rem;
+    border: 4px solid #334708;
     margin-bottom: 1rem;
 }
 
@@ -105,6 +108,10 @@ section.infocard {
     text-align: left;
 }
 
+div.header, section.infocard h2, section.personcard h2 {
+    min-width: fit-content;
+}
+
 section.infocard h2, section.personcard h2 {
     color: #F0FA9A;
     padding: 0.5em 1em;
@@ -130,7 +137,7 @@ section.personcard h2 {
 }
 
 section.personcard img {
-    border: 4px solid #81B622;
+    border: 4px solid #75A71F;
     margin-top: 1em;
 }
 
@@ -159,4 +166,10 @@ footer {
 footer p {
     color: #E6FFCE;
     margin: 0.5em auto;
+}
+
+@media (min-width: 480px) {
+    html {
+        font-size: 16px;
+    }
 }
