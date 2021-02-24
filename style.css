@@ -104,7 +104,7 @@ nav button.currpage:hover {
     box-shadow: none;
 }
 
-section.infocard {
+section.infocard, section.personcard h3, section.personcard p {
     text-align: left;
 }
 
@@ -122,20 +122,20 @@ section.infocard h2 {
     width: 25%;
 }
 
-section.infocard h3 {
+section.infocard h3, section.personcard h3 {
     font-size: 1.25rem;
     font-weight: bold;
     margin: 2em 2em 0em 2em;
 }
 
-section.infocard p {
+section.infocard p, section.personcard p {
     font-size: 1.125rem;
     font-family: 'Roboto Slab', serif;
     line-height: 1.75em;
     margin: 1em 2em;
 }
 
-section.infocard p::first-letter {
+section.infocard p::first-letter, section.personcard p::first-letter {
     padding-left: 1.5em;
 }
 
