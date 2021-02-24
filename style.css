@@ -105,7 +105,7 @@ section.infocard p {
     font-size: 1.25rem;
     font-family: 'Roboto Slab', serif;
     line-height: 1.75em;
-    margin: 1em auto 0em auto;
+    margin: 1em 2em 1em 2em;
 }
 
 section.infocard p::first-letter {
