@@ -122,11 +122,17 @@ section.infocard h2 {
     width: 25%;
 }
 
-section.infocard p {
+section.infocard h3 {
     font-size: 1.25rem;
+    font-weight: bold;
+    margin: 2em 2em 0em 2em;
+}
+
+section.infocard p {
+    font-size: 1.125rem;
     font-family: 'Roboto Slab', serif;
     line-height: 1.75em;
-    margin: 1em 2em 1em 2em;
+    margin: 1em 2em;
 }
 
 section.infocard p::first-letter {
