@@ -25,6 +25,20 @@
                 <div class="googleform">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfFGiDD4PqNdZJeGVV_f1Kp2X-LfvhWxIvQlbiSc3cBGEr58A/viewform?embedded=true">Loading…</iframe>
                 </div>
+                <div class="site-feedback-form">
+                    <form action="./formtest.php" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name">
+                        <br>
+                        <label for="rating">Rating:</label>
+                        <input type="range" name="rating" id="rating" min="0" max="5" step="1">
+                        <br>
+                        <label for="review">Please leave a review:</label>
+                        <textarea name="review" id="review" cols="30" rows="10"></textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
             </section>
         </main>
         <footer>
